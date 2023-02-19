@@ -48,6 +48,7 @@ document.querySelector('.check').addEventListener('click', function(){
            score--;
            document.querySelector('.score').textContent = score;
         }else{
+             document.querySelector('body').style.backgroundColor = '#CC0001';
            document.querySelector('.message').textContent = '🧨 You lost the game!';
         }
     }
@@ -59,6 +60,7 @@ document.querySelector('.check').addEventListener('click', function(){
             score--;
            document.querySelector('.score').textContent = score;
         } else{
+            document.querySelector('body').style.backgroundColor = '#CC0001';
             document.querySelector('.message').textContent = '🧨 You lost the game!';
        }
     }   
